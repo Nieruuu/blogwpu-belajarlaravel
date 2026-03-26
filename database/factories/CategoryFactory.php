@@ -17,10 +17,13 @@ class CategoryFactory extends Factory
      */
     public function definition(): array
     {
-        $category_name = $this->faker->sentence(rand(1, 3), false);
+        $faker = fake() ?? $this->faker;
+        $category_name = $faker->sentence(rand(1, 3), false);
+
         return [
             'name' => $category_name,
             'slug' => Str::slug($category_name),
+            'color' => $faker->hexColor(),
         ];
     }
 }
