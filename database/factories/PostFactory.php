@@ -5,6 +5,7 @@ namespace Database\Factories;
 use App\Models\Category;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Post>
@@ -18,13 +19,13 @@ class PostFactory extends Factory
      */
     public function definition(): array
     {
-        $title = fake()->sentence(rand(6,8));
+        $title = $this->faker->sentence(rand(6, 8));
         return [
             'title' => $title,
-            'slug' => str()->slug($title),
+            'slug' => Str::slug($title),
             'category_id' => Category::factory(),
             'author_id' => User::factory(),
-            'body' => fake()->paragraphs(3, true),
+            'body' => $this->faker->paragraphs(3, true),
         ];
     }
 }
