@@ -9,7 +9,7 @@
                             class="grid size-8 place-items-center rounded-full bg-amber-400 text-sm font-black text-slate-900">
                             R
                         </span>
-                        <span class="text-sm font-semibold tracking-[0.24em] uppercase">Raflyblog</span>
+                        <span class="text-sm font-semibold tracking-[0.24em] uppercase">RaflyBlog</span>
                     </a>
                 </div>
                 <div class="hidden md:block">

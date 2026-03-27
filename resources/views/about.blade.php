@@ -6,7 +6,7 @@
                 About this space
             </span>
             <h2 class="mt-4 text-4xl font-black tracking-tight text-slate-800 sm:text-5xl">
-                WPublog dibuat sebagai ruang menulis yang sederhana, bersih, dan mudah dipakai.
+                RaflyBlog dibuat sebagai ruang menulis yang sederhana, bersih, dan mudah dipakai.
             </h2>
             <p class="mt-5 text-base leading-8 text-slate-600 sm:text-lg">
                 Halaman ini menjelaskan ide di balik project ini: tempat untuk menulis, mengelola, dan menampilkan post
@@ -73,7 +73,8 @@
             </div>
         </div>
 
-        <div class="rounded-[1.75rem] border border-slate-200 bg-gradient-to-br from-white via-sky-50 to-amber-50 p-6 shadow-sm sm:p-8">
+        <div
+            class="rounded-[1.75rem] border border-slate-200 bg-gradient-to-br from-white via-sky-50 to-amber-50 p-6 shadow-sm sm:p-8">
             <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">Simple timeline</p>
             <div class="mt-6 space-y-5">
                 <div class="flex gap-4">

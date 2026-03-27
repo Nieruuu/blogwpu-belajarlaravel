@@ -22,7 +22,7 @@
                 <div class="mt-5 space-y-4">
                     <div class="rounded-2xl border border-slate-100 bg-slate-50/70 p-4">
                         <p class="text-sm font-semibold text-slate-800">Email</p>
-                        <p class="mt-1 text-sm text-slate-600">hello@wpublog.test</p>
+                        <p class="mt-1 text-sm text-slate-600">hello@raflyblog.com</p>
                     </div>
                     <div class="rounded-2xl border border-slate-100 bg-slate-50/70 p-4">
                         <p class="text-sm font-semibold text-slate-800">Location</p>
