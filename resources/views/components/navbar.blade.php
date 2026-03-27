@@ -5,10 +5,11 @@
                 <div class="shrink-0">
                     <a href="/"
                         class="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-white">
-                        <span class="grid size-8 place-items-center rounded-full bg-amber-400 text-sm font-black text-slate-900">
+                        <span
+                            class="grid size-8 place-items-center rounded-full bg-amber-400 text-sm font-black text-slate-900">
                             W
                         </span>
-                        <span class="text-sm font-semibold tracking-[0.24em] uppercase">WPublog</span>
+                        <span class="text-sm font-semibold tracking-[0.24em] uppercase">Raflyblog</span>
                     </a>
                 </div>
                 <div class="hidden md:block">
